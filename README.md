@@ -66,4 +66,36 @@ Gives routes for different pages which is easy fro navigation.
 
 
 
+
+
+CODING STANDARD
+-----------------------
+Naming Conventions:
+->Variable name should follow camelCase convention.
+->Class name use PascalCase convention.
+->Constants are named using uppercase with underscore.
+
+Meaningful Variable Names:
+->Variable  names should be defined in such a way that it should convey the purpose.
+
+Comments:
+->To explain the purpose of the code
+
+Use of Final Modifier:
+->To provide immutability we use final. Variables won't be reassigned after initialization hence avoiding accidental modifications.
+
+Widget Composition:
+Flutter widgets such as Scaffold,AppBar,Container,TextField etc are being used.
+
+ Navigation:
+ ->It is handled using routes
+
+ Use of statefull and stateless widgets:
+ -> stateless widgets are immutable that is their properties cannot be changed where as statefull widgets are mutable
+
+
+
+
+
+
  
